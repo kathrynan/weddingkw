@@ -7,13 +7,13 @@ const Header = () => {
       <div className="max-w-screen-2xl w-full mx-auto grid grid-cols-2">
         <ul className="flex w-full text-sm lg:text-base text-white bg-dark-500 py-4 rounded-l-full rounded-r-full">
           <li className="py-3 px-4 xl:px-8 border border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 text-sm xl:text-base cursor-pointer">
-            <Link to="/">Home</Link>
+            <Link to="./index">Home</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link to="/wedding.js">Wedding</Link>
+            <Link to="./wedding">Wedding</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link to="/ourstory.js">Our Story</Link>
+            <Link to="./ourstory">Our Story</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
             <a href="https://forms.gle/vwReUdcp1SSptmij9" target="_blank" rel="noopener noreferrer">RSVP</a>

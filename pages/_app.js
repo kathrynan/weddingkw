@@ -11,9 +11,9 @@ function MyApp() {
     <Router>
       <Header />
       <Routes>
-        <Route path="/index" element={<HomePage />} />
-        <Route path="/wedding" element={<WeddingPage />} />
-        <Route path="/our-story" element={<OurStoryPage />} />
+        <Route path="./index" element={<HomePage />} />
+        <Route path="./wedding" element={<WeddingPage />} />
+        <Route path="./ourstory" element={<OurStoryPage />} />
       </Routes>
     </Router>
   );
