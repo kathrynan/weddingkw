@@ -10,48 +10,46 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Wedding Invitation</title>
+        <title>Our Wedding | Kathryn & William</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
+
       <Layout>
         {/* Header Mobile */}
         <section
-          id="beranda"
+          id="homepage-mobile"
           className="flex lg:hidden bg-cover bg-center  w-full h-screen  items-start py-14"
           style={{ backgroundImage: 'url(/assets/prewedding-home.png)' }}
         >
           <div className="flex flex-col  w-full relative">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10">
-              <p className="font-habibi ">Pernikahan dari</p>
+              <p className="font-habibi ">Celebrate the wedding of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Bambang & Partini
+                Kathryn & William
               </h4>
-              <p className="font-habibi ">01 Januari 2021</p>
+              <p className="font-habibi ">December 13 2025</p>
             </div>
           </div>
         </section>
-        {/* End Header Mobile */}
+
+        {/* Header Desktop */}
         <section
-          id="beranda-dekstop"
+          id="homepage-desktop"
           className="hidden lg:grid bg-dark-500 py-14 lg:py-0 mb:pb-6 grid-flow-col grid-cols-2 gap-4 row-span-4 h-screen"
         >
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
-              <p>
-                “And of His signs is that He created for you from your selves
-                mates that you may find tranquility in them; and He placed
-                between you affection and mercy. Indeed in that are signs for a
-                people who give thought.”
-              </p>
-              <p>( QS. Ar- Rum 21 )</p>
+              {/* Clock */}
+              <link rel="stylesheet" href="css/responsive-clock.css"></link>
+              <p>( Time until the wedding )</p>
             </div>
             <div className="flex flex-col ">
-              <p className="font-habibi">Pernikahan dari</p>
+              <p className="font-habibi">Celebrate the wedding of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
-                Bambang & Partini
+                Kathryn & William
               </h4>
-              <p className="font-habibi ml-auto">01 Januari 2021</p>
+              <p className="font-habibi ml-auto">December 13 2025</p>
             </div>
           </div>
           <div className="flex w-full relative">
@@ -65,30 +63,20 @@ export default function Home() {
             />
           </div>
         </section>
+
+        {/* Second Box : Summary */}
         <section
-          id="resepsi"
+          id="summary"
           className="bg-dark-500 py-14  mb:pb-6 grid grid-flow-row gap-4 row-span-4 h-screen"
         >
           <div className="flex flex-col  w-full relative lg:h-full">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px lg:hidden"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10 lg:my-auto">
-              <p className="font-habibi lg:hidden">Pernikahan dari</p>
+              <p className="font-habibi lg:hidden">Wedding of</p>
               <h4 className="font-great-vibes text-5xl lg:text-7xl mb-4 mt-6 ">
-                Bambang & Partini
+                K & W
               </h4>
-              <p className="lg:hidden font-habibi ">01 Januari 2021</p>
-            </div>
-          </div>
-          <div className="flex w-full px-8 text-white font-habibi text-sm md:text-base lg:text-xl">
-            <div className="flex flex-col w-1/2 text-center px-2 break-words">
-              <p>Putra dari</p>
-              <p>Bapak Badril Munir</p>
-              <p>Ibu Sartinah</p>
-            </div>
-            <div className="flex flex-col w-1/2 text-center px-2 break-words ">
-              <p>Putra dari</p>
-              <p>Bapak Badril Munir</p>
-              <p>Ibu Sartinah</p>
+              <p className="lg:hidden font-habibi ">December 13 2025</p>
             </div>
           </div>
           <div className="flex flex-col mx-auto h-40 lg:h-full items-center justify-center w-full px-8">
@@ -97,10 +85,10 @@ export default function Home() {
                 <Ring className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto" />
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
                   <p className="text-base md:text-lg lg:text-3xl">
-                    Akad pernikahan{' '}
+                    Ceremony{' '}
                   </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 08.00 s.d 10.00 WIB
+                    Insert time frame
                   </p>
                 </div>
               </div>
@@ -111,24 +99,26 @@ export default function Home() {
                   className="h-12 md:h-16 w-12 md:w-16  mr-6 my-auto"
                 />
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
-                  <p className="text-base md:text-lg lg:text-3xl">Resepsi </p>
+                  <p className="text-base md:text-lg lg:text-3xl">Reception </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Pukul 10.00 s.d Selesai
+                    Insert time frame
                   </p>
                 </div>
               </div>
             </div>
             <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              Bertempat di mempelai wanita, Perum permata hijau Blok F no 45
+              The ceremony and reception will be held at Central Union Church.
             </p>
           </div>
           <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
             <button className="mt-6 px-6 md:px-12 py-2 md:py-3 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm md:text-base">
               <Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />
-              Cek Lokasi
+              Location
             </button>
           </div>
         </section>
+
+        {/* Picture Gallery */}
         <section
           id="gallery"
           className="bg-dark-500 pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 h-screen px-4 lg:px-8"
