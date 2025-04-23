@@ -90,6 +90,9 @@ export default function Home() {
                   <p className="text-xs md:text-base lg:text-lg">
                     Insert time frame
                   </p>
+                  <p className="text-xs md:text-base lg:text-lg">
+                    Attire: Formal
+                  </p>
                 </div>
               </div>
 
@@ -102,6 +105,9 @@ export default function Home() {
                   <p className="text-base md:text-lg lg:text-3xl">Reception </p>
                   <p className="text-xs md:text-base lg:text-lg">
                     Insert time frame
+                  </p>
+                  <p className="text-xs md:text-base lg:text-lg">
+                    Attire: Semi-Formal
                   </p>
                 </div>
               </div>
