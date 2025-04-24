@@ -87,10 +87,7 @@ export default function Home() {
                     Ceremony{' '}
                   </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Insert time frame
-                  </p>
-                  <p className="text-xs md:text-base lg:text-lg">
-                    Attire: Formal
+                    Insert start time
                   </p>
                 </div>
               </div>
@@ -103,16 +100,13 @@ export default function Home() {
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
                   <p className="text-base md:text-lg lg:text-3xl">Reception </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Insert time frame
-                  </p>
-                  <p className="text-xs md:text-base lg:text-lg">
-                    Attire: Semi-Formal
+                    Insert end time
                   </p>
                 </div>
               </div>
             </div>
             <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              The ceremony and reception will be held at Central Union Church.
+              Address | Central Union Church
             </p>
           </div>
           <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
