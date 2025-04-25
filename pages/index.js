@@ -11,6 +11,7 @@ export default function Home() {
       <Head>
         <title>Our Wedding | Kathryn & William</title>
         <link rel="icon" href="/favicon.ico" />
+        <link rel="stylesheet" href="styles/responsive-clock.css"></link>
       </Head>
 
       <Layout>
@@ -40,7 +41,6 @@ export default function Home() {
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
               {/* Clock */}
-              <link rel="stylesheet" href="css/responsive-clock.css"></link>
               <p>( Time until the wedding )</p>
             </div>
             <div className="flex flex-col ">
