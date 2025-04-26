@@ -43,6 +43,7 @@ export default function Home() {
               {/* Clock */}
               <div className="flipTimebox">
 								<div className="clock clock-fix"></div>
+                <script src="path/to/simplyCountdown.js"></script>
 							</div>
               <p>( Time until the wedding )</p>
             </div>
