@@ -41,6 +41,9 @@ export default function Home() {
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
               {/* Clock */}
+              <div className="flipTimebox">
+								<div className="clock clock-fix"></div>
+							</div>
               <p>( Time until the wedding )</p>
             </div>
             <div className="flex flex-col ">
