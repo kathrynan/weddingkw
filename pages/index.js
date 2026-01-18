@@ -28,7 +28,7 @@ export default function Home() {
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Kathryn & William
               </h4>
-              <p className="font-habibi ">December 13 2025</p>
+              <p className="font-habibi ">June 26 2026</p>
             </div>
           </div>
         </section>
@@ -52,7 +52,7 @@ export default function Home() {
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Kathryn & William
               </h4>
-              <p className="font-habibi ml-auto">December 13 2025</p>
+              <p className="font-habibi ml-auto">June 26 2026</p>
             </div>
           </div>
           <div className="flex w-full relative">
@@ -79,7 +79,7 @@ export default function Home() {
               <h4 className="font-great-vibes text-5xl lg:text-7xl mb-4 mt-6 ">
                 K & W
               </h4>
-              <p className="lg:hidden font-habibi ">December 13 2025</p>
+              <p className="lg:hidden font-habibi ">June 26 2026</p>
             </div>
           </div>
           <div className="flex flex-col mx-auto h-40 lg:h-full items-center justify-center w-full px-8">
@@ -110,7 +110,7 @@ export default function Home() {
               </div>
             </div>
             <p className="hidden md:block mt-12 lg:mt-auto mx-auto text-lg text-white font-habibi">
-              Address | Central Union Church
+              Address | Kaimuki Christian Church
             </p>
           </div>
           <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
