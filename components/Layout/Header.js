@@ -10,10 +10,10 @@ const Header = () => {
             <Link href="/">Home</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link href="/wedding">Wedding</Link>
+            <Link href="/wedding">Our Story</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link href="/ourstory">Our Story</Link>
+            <Link href="/ourstory">Registry</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
             <a href="https://forms.gle/vwReUdcp1SSptmij9" target="_blank" rel="noopener noreferrer">RSVP</a>
