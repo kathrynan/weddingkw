@@ -5,27 +5,27 @@ import Layout from '@/components/Layout/Layout';
 import Ring from '../public/assets/icons/ring.svg';
 import Location from '../public/assets/icons/location.svg';
 
-export default function OurStory() {
+export default function Registry() {
     return (
       <Layout>
         <Head>
           <title>Wedding | Kathryn & William</title>
         </Head>
-        
+
         {/* Header Mobile */}
         <section
           id="homepage-mobile"
           className="flex lg:hidden bg-cover bg-center  w-full h-screen  items-start py-14"
-          style={{ backgroundImage: 'url(/assets/prewedding-home.png)' }}
+          style={{ backgroundImage: 'url(/assets/gallery-mobile/DSCF4261.jpg)' }}
         >
           <div className="flex flex-col  w-full relative">
             <div className="absolute h-full w-full bg-dark-450 bg-blur-2px"></div>
             <div className="flex flex-col w-full text-white text-center h-auto  px-8 py-3.5 z-10">
-              <p className="font-habibi ">Celebrate the wedding of</p>
+              <p className="font-habibi ">Celebrate the marriage of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Kathryn & William
               </h4>
-              <p className="font-habibi ">December 13 2025</p>
+              <p className="font-habibi ">June 20 2026</p>
             </div>
           </div>
         </section>
@@ -42,16 +42,16 @@ export default function OurStory() {
               <p>( Time until the wedding )</p>
             </div>
             <div className="flex flex-col ">
-              <p className="font-habibi">Celebrate the wedding of</p>
+              <p className="font-habibi">Celebrate the marriage of</p>
               <h4 className="font-great-vibes text-5xl mb-4 mt-6">
                 Kathryn & William
               </h4>
-              <p className="font-habibi ml-auto">December 13 2025</p>
+              <p className="font-habibi ml-auto">June 20 2026</p>
             </div>
           </div>
           <div className="flex w-full relative">
             <Image
-              src="/assets/prewedding-home.png"
+              src="/assets/gallery-mobile/DSCF4261.jpg"
               alt="Picture of the author"
               layout="fill"
               objectFit="cover"
@@ -62,8 +62,8 @@ export default function OurStory() {
         </section>
   
         <section className="text-white p-8">
-          <h1 className="text-3xl font-bold">Our Story</h1>
-          <p className="mt-4">Contain the story of our individual lives, meeting, falling in love, and getting engaged. Coming soon!</p>
+          <h1 className="text-3xl font-bold">Registry</h1>
+          <p className="mt-4">Will contain the registry list.</p>
         </section>
       </Layout>
     );
