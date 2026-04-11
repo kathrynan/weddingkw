@@ -5,46 +5,6 @@ import Layout from '@/components/Layout/Layout';
 import Ring from '../public/assets/icons/ring.svg';
 import Location from '../public/assets/icons/location.svg';
 
-// Countdown function
-function getCalendarAccurateCountdown() {
-  const today = new Date();
-  const weddingDate = new Date("2026-06-20");
-
-  let years = weddingDate.getFullYear() - today.getFullYear();
-  let months = weddingDate.getMonth() - today.getMonth();
-  let days = weddingDate.getDate() - today.getDate();
-
-  // Adjust days
-  if (days < 0) {
-    const prevMonth = new Date(weddingDate.getFullYear(), weddingDate.getMonth(), 0);
-    days += prevMonth.getDate();
-    months -= 1;
-  }
-
-  // Adjust months
-  if (months < 0) {
-    months += 12;
-    years -= 1;
-  }
-
-  // Convert years → months
-  let totalMonths = years * 12 + months;
-
-  // Convert months → real calendar days
-  let monthDays = 0;
-  let cursor = new Date(today);
-
-  for (let i = 0; i < totalMonths; i++) {
-    const nextMonth = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0);
-    monthDays += nextMonth.getDate();
-    cursor.setMonth(cursor.getMonth() + 1);
-  }
-
-  const totalDays = monthDays + days;
-
-  return { days: totalDays };
-}
-
 export default function Gallery() {
     return (
       <Layout>
@@ -77,22 +37,8 @@ export default function Gallery() {
                 >
                   <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
                     <div className="flex flex-col text-center my-auto">
-                      {/* Clock */}
-                      {(() => {
-                        const { days } = getCalendarAccurateCountdown();
-                        return (
-                          <p className="mt-6 text-lg tracking-wide text-white/90 animate-fadeIn">
-                            <span className="text-4xl">
-                              {days} days
-                            </span>
-                            <span className="block text-sm uppercase tracking-widest text-white/60 mb-1">
-                              Until the wedding
-                            </span>
-                          </p>
-                        );
-                      })()}
-        
-        
+                        <p>"(Love) always protects, always trusts, always hopes, always perseveres."</p>
+                        <p>1 Corinthians 13:7</p>
                     </div>
                     <div className="flex flex-col ">
                       <p className="font-habibi">Celebrate the marriage of</p>
