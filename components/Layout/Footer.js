@@ -45,7 +45,7 @@ const Footer = () => {
                 className="h-6 w-6 mb-1 bg-center bg-no-repeat bg-contain"
                 style={{ backgroundImage: "url('/assets/icons/gallery.svg')" }}
               />
-              Registry
+              Gallery
             </Link>
           </li>
 
@@ -61,7 +61,7 @@ const Footer = () => {
                 className="h-6 w-6 mb-1 bg-center bg-no-repeat bg-contain"
                 style={{ backgroundImage: "url('/assets/icons/chat.svg')" }}
               />
-              RSVP
+              Registry
             </a>
           </li>
 

@@ -37,9 +37,8 @@ export default function Registry() {
         >
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
-              {/* Clock */}
-              <link rel="stylesheet" href="css/responsive-clock.css"></link>
-              <p>( Time until the wedding )</p>
+              <p>If you want to give more, we would love if you could donate to our wedding fund by clicking <u><a href="https://withjoy.com/william-and-kathryn-jun-26/registry" target="_blank">here</a></u>.</p>
+              <p>We appreciate any and all contributions!</p>
             </div>
             <div className="flex flex-col ">
               <p className="font-habibi">Celebrate the marriage of</p>
@@ -61,10 +60,12 @@ export default function Registry() {
           </div>
         </section>
   
+        {/*}
         <section className="text-white p-8">
           <h1 className="text-3xl font-bold">Registry</h1>
           <p className="mt-4">Will contain the registry list.</p>
         </section>
+        {*/}
       </Layout>
     );
   }

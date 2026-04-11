@@ -91,36 +91,29 @@ export default function Questions() {
                 2. How's the parking?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
-                The church will have parking reserved in the front of the church and at the Kaimuki Public Library across the street (Harding Avenue).
+                The church will have parking reserved in their front and back lots. For the reception, there will also be parking in the structure across from the venue. Further details will be provided later.
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
                 3. Is the wedding indoors or outdoors?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
-                Both! The wedding ceremony will be inside the chapel and the reception will be
-                in the back lot of the church (under a tent)!
+                Inside! The wedding ceremony will be inside the chapel and the reception will be
+                at 3660 on the Rise.
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
                 4. What's the deadline to RSVP?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
-                As soon as possible! We want to get enough food for everybody!
+                Our hard deadline is mid-May, but please let us know if you can come as soon as possible!
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
-                5. Can we bring plus-ones?
+                5. Can we bring plus-ones/are children allowed?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
-                Sorry but no.
-              </p>
-
-              <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
-                6. Are children allowed?
-              </p>
-              <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
-                TBD.
+                Only those listed in your invitation are invited.
               </p>
           </div>
         </section>

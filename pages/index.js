@@ -28,10 +28,23 @@ function getCalendarAccurateCountdown() {
   }
 
   // Convert years → months
-  const totalMonths = years * 12 + months;
+  let totalMonths = years * 12 + months;
 
-  return { months: totalMonths, days };
+  // Convert months → real calendar days
+  let monthDays = 0;
+  let cursor = new Date(today);
+
+  for (let i = 0; i < totalMonths; i++) {
+    const nextMonth = new Date(cursor.getFullYear(), cursor.getMonth() + 1, 0);
+    monthDays += nextMonth.getDate();
+    cursor.setMonth(cursor.getMonth() + 1);
+  }
+
+  const totalDays = monthDays + days;
+
+  return { days: totalDays };
 }
+
 
 
 export default function Home() {
@@ -70,12 +83,11 @@ export default function Home() {
             <div className="flex flex-col text-center my-auto">
               {/* Clock */}
               {(() => {
-                const { months, days } = getCalendarAccurateCountdown();
+                const { days } = getCalendarAccurateCountdown();
                 return (
-                  <p className="font-habibi mt-6 text-lg tracking-wide text-white/90 animate-fadeIn">
-                    <span className="text-3xl font-habibi">
-                      {months} {months === 1 ? "month" : "months"} & {days}{" "}
-                      {days === 1 ? "day" : "days"}
+                  <p className="mt-6 text-lg tracking-wide text-white/90 animate-fadeIn">
+                    <span className="text-4xl">
+                      {days} days
                     </span>
                     <span className="block text-sm uppercase tracking-widest text-white/60 mb-1">
                       Until the wedding
@@ -83,6 +95,7 @@ export default function Home() {
                   </p>
                 );
               })()}
+
 
             </div>
             <div className="flex flex-col ">
@@ -154,72 +167,8 @@ export default function Home() {
           <div className="flex mx-auto h-32 lg:h-full items-start lg:items-end justify-start w-full px-8">
             <button className="mt-6 px-6 md:px-12 py-2 md:py-3 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm md:text-base">
               {/*<Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />*/}
-              View Map
+              Ceremony Livestream
             </button>
-          </div>
-        </section>
-
-        {/* Picture Gallery */}
-        <section
-          id="gallery"
-          className="bg-dark-500 pt-8 md:pt-0 lg:pt-32 pb-24 lg:pb-8 grid grid-flow-row gap-4 grid-rows-7 lg:grid-rows-5 grid-cols-2 lg:grid-cols-3 min-h-screen px-4 lg:px-8"
-        >
-          {/*<h1 className="col-span-2  text-5xl font-great-vibes my-auto mx-auto text-white lg:hidden">
-            Gallery
-          </h1>*/}
-          <div className="flex row-span-3 ">
-            <Image
-              src="/assets/gallery-mobile/DSCF4331.jpg"
-              alt="Engagement Photo #1"
-              width={500}
-              height={500}
-              objectFit="cover"
-              quality={100}
-              loading="lazy"
-            />
-          </div>
-          <div className="flex  row-start-3 col-start-2 row-span-3 lg:row-span-5 bg-white">
-            <Image
-              src="/assets/gallery-mobile/photo-2.png"
-              alt="Middle Photo"
-              width={500}
-              height={500}
-              objectFit="cover"
-              quality={100}
-              loading="lazy"
-            />
-          </div>
-          <div className="flex row-span-1 col-start-2 lg:col-start-3 row-start-2  lg:row-span-2">
-            <Image
-              src="/assets/gallery-mobile/photo-3.png"
-              alt="Engagement Photo #3"
-              width={500}
-              height={500}
-              objectFit="cover"
-              quality={100}
-              loading="lazy"
-            />
-          </div>
-          <div className="flex row-span-1 lg:row-span-3">
-            <Image
-              src="/assets/gallery-mobile/DSCF4716.jpg"
-              alt="Engagement Photo #4"
-              width={500}
-              height={500}
-              objectFit="cover"
-              quality={100}
-              loading="lazy"
-            />
-          </div>
-          <div className="flex row-span-2 lg:row-span-2 col-span-2 lg:col-span-1 w-full relative">
-            <Image
-              src="/assets/gallery-mobile/DSCF4781.jpg"
-              alt="Engagement Photo #2"
-              layout="fill"
-              objectFit="cover"
-              quality={100}
-              loading="lazy"
-            />
           </div>
         </section>
       </Layout>

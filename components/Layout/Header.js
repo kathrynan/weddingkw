@@ -14,11 +14,10 @@ const Header = () => {
             <Link href="/questions">FAQ</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link href="/registry">Registry</Link>
+            <Link href="/gallery">Gallery</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <a href="https://forms.gle/vwReUdcp1SSptmij9" target="_blank" rel="noopener noreferrer">RSVP</a>
-          </li>
+            <Link href="/registry">Registry</Link>          </li>
         </ul>
       </div>
     </div>
