@@ -142,7 +142,9 @@ export default function Home() {
                     Ceremony{' '}
                   </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    Kaimuki Christian Church
+                    <a href="https://maps.app.goo.gl/pdthJupDANYosaRa8" target="_blank">
+                      Kaimuki Christian Church
+                    </a>
                   </p>
                 </div>
               </div>
@@ -155,7 +157,9 @@ export default function Home() {
                 <div className="flex flex-col text-white font-habibi justify-between h-full">
                   <p className="text-base md:text-lg lg:text-3xl">Reception </p>
                   <p className="text-xs md:text-base lg:text-lg">
-                    3660 on the Rise
+                    <a href="https://maps.app.goo.gl/r1Atpsv7DaCtTMzCA" target="_blank">
+                      3660 on the Rise
+                    </a>
                   </p>
                 </div>
               </div>

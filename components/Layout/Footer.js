@@ -35,10 +35,10 @@ const Footer = () => {
             </Link>
           </li>
 
-          {/* REGISTRY */}
+          {/* GALLERY */}
           <li>
             <Link
-              href="/registry"
+              href="/gallery"
               className="flex flex-col items-center px-3 py-1 transition-all duration-200 hover:scale-105 hover:outline hover:outline-1 hover:outline-white rounded-full"
             >
               <span
@@ -49,10 +49,10 @@ const Footer = () => {
             </Link>
           </li>
 
-          {/* RSVP */}
+          {/* REGISTRY */}
           <li>
             <a
-              href="https://forms.gle/vwReUdcp1SSptmij9"
+              href="https://withjoy.com/william-and-kathryn-jun-26/registry"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center px-3 py-1 transition-all duration-200 hover:scale-105 hover:outline hover:outline-1 hover:outline-white rounded-full"

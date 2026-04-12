@@ -17,7 +17,10 @@ const Header = () => {
             <Link href="/gallery">Gallery</Link>
           </li>
           <li className="py-3 px-4 xl:px-8 border border-transparent hover:border-white rounded-l-full rounded-r-full mx-1 xl:mx-3 cursor-pointer">
-            <Link href="/registry">Registry</Link>          </li>
+            <a href="https://withjoy.com/william-and-kathryn-jun-26/registry" target="_blank" rel="noopener noreferrer">
+              Registry
+            </a>
+          </li>
         </ul>
       </div>
     </div>

@@ -95,7 +95,14 @@ export default function Questions() {
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
-                3. Is the wedding indoors or outdoors?
+                3. When does the ceremony and reception begin?
+              </p>
+              <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
+                The ceremony will begin at 11am, but we ask that guests arrive at 10:30am to allow time for parking and seating. The reception will begin around 12:30pm, following a short break after the ceremony to enjoy snacks/drinks and travel to the reception venue.
+              </p>
+
+              <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
+                4. Is the wedding indoors or outdoors?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
                 Inside! The wedding ceremony will be inside the chapel and the reception will be
@@ -103,14 +110,14 @@ export default function Questions() {
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
-                4. What's the deadline to RSVP?
+                5. What's the deadline to RSVP?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
                 Our hard deadline is mid-May, but please let us know if you can come as soon as possible!
               </p>
 
               <p class="font-bold text-xs md:text-base lg:text-lg mt-6">
-                5. Can we bring plus-ones/are children allowed?
+                6. Can we bring plus-ones/are children allowed?
               </p>
               <p class="leading-loose ml-5 text-xs md:text-base lg:text-lg">
                 Only those listed in your invitation are invited.

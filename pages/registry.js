@@ -37,7 +37,7 @@ export default function Registry() {
         >
           <div className="flex flex-col text-white px-8 pb-20 pt-28 justify-end">
             <div className="flex flex-col text-center my-auto">
-              <p>If you want to give more, we would love if you could donate to our wedding fund by clicking <u><a href="https://withjoy.com/william-and-kathryn-jun-26/registry" target="_blank">here</a></u>.</p>
+              <p>If you want to give more, you can donate by clicking <u><a href="https://withjoy.com/william-and-kathryn-jun-26/registry" target="_blank">here</a></u>.</p>
               <p>We appreciate any and all contributions!</p>
             </div>
             <div className="flex flex-col ">
