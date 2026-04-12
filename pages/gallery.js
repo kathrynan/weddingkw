@@ -72,7 +72,7 @@ export default function Gallery() {
               width={500}
               height={500}
               objectFit="cover"
-              quality={100}
+              quality={75}
               loading="lazy"
             />
           </div>
@@ -84,7 +84,7 @@ export default function Gallery() {
               width={500}
               height={500}
               objectFit="cover"
-              quality={100}
+              quality={75}
               loading="lazy"
             />
           </div>
@@ -95,7 +95,7 @@ export default function Gallery() {
               alt="Engagement Photo #2"
               layout="fill"
               objectFit="cover"
-              quality={100}
+              quality={75}
               loading="lazy"
             />
           </div>
@@ -107,7 +107,7 @@ export default function Gallery() {
               alt="Engagement Photo #2"
               layout="fill"
               objectFit="cover"
-              quality={100}
+              quality={75}
               loading="lazy"
             />
           </div>
@@ -119,7 +119,7 @@ export default function Gallery() {
               width={500}
               height={500}
               objectFit="cover"
-              quality={100}
+              quality={75}
               loading="lazy"
             />
           </div>
