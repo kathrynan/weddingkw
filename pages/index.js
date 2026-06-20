@@ -172,6 +172,7 @@ export default function Home() {
             <button className="mt-6 px-6 md:px-12 py-2 md:py-3 flex justify-center items-center border-white border rounded-l-full rounded-r-full mx-auto text-white font-habibi text-sm md:text-base">
               {/*<Location className="h-8 md:h-10 w-8 md:w-10 mr-4" />*/}
               Ceremony Livestream
+              <a href="https://www.youtube.com/live/fV7dPXD3U0w?si=RD4oAFG1X69Qzg--" target="_blank"></a>
             </button>
           </div>
         </section>
